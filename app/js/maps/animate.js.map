@@ -1,0 +1,1 @@
+{"version":3,"sources":["animate.coffee"],"names":[],"mappings":"AAAA,IAAA,oBAAA;;AAAA,oBAAA,GAAsB,OAAO,CAAC,MAAR,CAAe,sBAAf,EAAsC,CAAC,WAAD,CAAtC,CAAtB,CAAA","file":"animate.js","sourceRoot":"/source/","sourcesContent":["doubanBookAnimations =angular.module('doubanBookAnimations',['ngAnimate'])"]}

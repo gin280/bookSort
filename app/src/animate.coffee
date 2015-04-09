@@ -1,0 +1,1 @@
+doubanBookAnimations =angular.module('doubanBookAnimations',['ngAnimate'])

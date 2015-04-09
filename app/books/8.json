@@ -1,0 +1,83 @@
+{
+  "rating": {
+    "max": 10,
+    "numRaters": 19,
+    "average": "7.2",
+    "min": 0
+  },
+  "subtitle": "",
+  "author": [
+    "辻村深月"
+  ],
+  "pubdate": "2015-1",
+  "tags": [
+    {
+      "count": 35,
+      "name": "辻村深月",
+      "title": "辻村深月"
+    },
+    {
+      "count": 20,
+      "name": "日本",
+      "title": "日本"
+    },
+    {
+      "count": 18,
+      "name": "推理",
+      "title": "推理"
+    },
+    {
+      "count": 13,
+      "name": "小说",
+      "title": "小说"
+    },
+    {
+      "count": 10,
+      "name": "日本文学",
+      "title": "日本文学"
+    },
+    {
+      "count": 9,
+      "name": "午夜文库",
+      "title": "午夜文库"
+    },
+    {
+      "count": 7,
+      "name": "日本推理",
+      "title": "日本推理"
+    },
+    {
+      "count": 5,
+      "name": "日系推理",
+      "title": "日系推理"
+    }
+  ],
+  "origin_title": "ゼロ、ハチ、ゼロ、ナナ。",
+  "image": "http://img5.douban.com/mpic/s27972459.jpg",
+  "binding": "平装",
+  "translator": [
+    "郑晓蕾"
+  ],
+  "catalog": "",
+  "pages": "255",
+  "images": {
+    "small": "http://img5.douban.com/spic/s27972459.jpg",
+    "large": "http://img5.douban.com/lpic/s27972459.jpg",
+    "medium": "http://img5.douban.com/mpic/s27972459.jpg"
+  },
+  "alt": "http://book.douban.com/subject/26277996/",
+  "id": "26277996",
+  "publisher": "新星出版社",
+  "isbn10": "7513316953",
+  "isbn13": "9787513316958",
+  "title": "〇八〇七",
+  "url": "http://api.douban.com/v2/book/26277996",
+  "alt_title": "ゼロ、ハチ、ゼロ、ナナ。",
+  "author_intro": "辻村深月 Tsujimura Mizuki\n出生于一九八〇年二月二十九日，毕业于千叶大学教育系。二〇〇四年以《时间停止的冰封校舍》出道，后每年均有佳作入围各大奖项。二〇一一年以《使者》获得吉川英治文学新人奖，次年以《没有钥匙的梦》摘下日本文坛的最高荣誉直木奖。她尤其擅长表达年轻人微妙的心理，文笔剔透细腻，是日本文坛最受期待的人气才女作家。",
+  "summary": "公司白领望月千笑在弑母后便不知所踪，成了警方追踪的目标。\n千笑家的母女关系一直相当和睦，令人羡慕，究竟发生了怎样的变故才引发了如此人伦悲剧？\n自由撰稿人神宫司瑞穗是千笑自幼一起长大的好朋友，进入社会后，两人的生活轨迹便各有不同，而弑母事件让她们重新回到彼此的世界中。\n瑞穗为求真相而开始调查，为此她不得不揭开自己的伤疤……\n爱情、友情、约定、守护的光辉能否温暖那冰冷残酷的现实？",
+  "series": {
+    "id": "25671",
+    "title": "午夜文库·日系佳作：辻村深月作品"
+  },
+  "price": "30.00元"
+}

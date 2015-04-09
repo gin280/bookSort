@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        Search: <input type="text" ng-model="query">
+        Sort by:
+        <select name="" id="" ng-model="orderProp">
+          <option value="name">按字母</option>
+          <option value="id">按发布时间</option>
+        </select>
+      </div>
+      <div class="col-md-10">
+        <ul>
+          <li class="thumbnail book-listing" ng-repeat="book in books | filter:query |orderBy:orderProp">
+            <a href="#/books/{{book.id}}" class="thumb">
+              <img ng-src="{{book.imageUrl}}">
+            </a>
+            <a href="#/books/{{book.id}}">{{book.name}}</a>
+            <p>{{book.snippet}}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>

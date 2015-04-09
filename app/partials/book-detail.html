@@ -1,0 +1,16 @@
+<div>
+	<div class="phone-images">
+  <img ng-src="{{i}}"
+       class="phone"
+       ng-repeat="i in book.img"
+       ng-class="{active:mainImageUrl==i}">
+</div>
+	<!-- <img ng-src="{{mainImageUrl}}" alt="" > -->
+	<h2>{{book.title}}</h2>
+	<p>{{book.summary}}</p>
+	<ul class="detail-ul">
+		<li ng-repeat="i in book.img">
+			<img ng-src="{{i}}" alt="" ng-mouseenter="setImage(i)">
+		</li>
+	</ul>
+</div>

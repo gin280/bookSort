@@ -1,0 +1,123 @@
+/* line 3, ../sass/animations.scss */
+.book-listing.ng-enter,
+.book-listing.ng-leave,
+.book-listing.ng-move {
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+
+/* line 11, ../sass/animations.scss */
+.book-listing.ng-enter,
+.book-listing.ng-move {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 18, ../sass/animations.scss */
+.book-listing.ng-move.ng-move-active,
+.book-listing.ng-enter.ng-enter-active {
+  opacity: 1;
+  height: 120px;
+}
+
+/* line 24, ../sass/animations.scss */
+.book-listing.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+}
+
+/* line 29, ../sass/animations.scss */
+.book-listing.ng-leave.ng-leave-active {
+  opacity: 0;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@-moz-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 54, ../sass/animations.scss */
+.view-frame.ng-leave {
+  -moz-animation: fade-out 0.5s;
+  -webkit-animation: fade-out 0.5s;
+  animation: fade-out 0.5s;
+  z-index: 99;
+}
+
+/* line 59, ../sass/animations.scss */
+.view-frame.ng-enter {
+  -moz-animation: fade-in 0.5s;
+  -webkit-animation: fade-in 0.5s;
+  animation: fade-in 0.5s;
+  z-index: 100;
+}
+
+/* line 64, ../sass/animations.scss */
+.view-container {
+  position: relative;
+}
+
+/* line 68, ../sass/animations.scss */
+.view-frame.ng-enter, .view-frame.ng-leave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
